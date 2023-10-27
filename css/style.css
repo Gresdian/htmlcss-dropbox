@@ -8,6 +8,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 /* COMMON */
+
+
+.margin-25{
+    margin-top: 25px;
+}
 button{
     color: white;
     background-color: #0061ff;
@@ -30,11 +35,11 @@ li{
     display: flex;
 }
 
-
-
 .d-block{
     display: block;
 }
+
+
 /* HEADER */
 header{
     color: #858585;
@@ -61,7 +66,7 @@ img{
     background-color: #b4d0e7;
 }
 .container2{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -82,6 +87,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 150%;
 }
 .green{
     width: 75%;
@@ -101,3 +107,101 @@ img{
      margin-left: 0;
      margin-right: 90px;
 }
+
+/* business offer */
+.container3{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 60px;
+}
+
+.col-33{
+    width: calc(100% / 3 - 40px);
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-50{
+    width: calc(50% - 40px)
+}
+
+.content3{
+    min-height: 1055px;
+    border: 1px solid lightgray;
+
+}
+
+h2{
+    font-size: 40px;
+    margin: 60px auto;
+}
+
+.radio{
+    margin: 60px auto;
+}
+
+.icon{
+    width: 24px;
+    margin-right: 13px;
+    margin-left: 0;
+    height: 24px;
+}
+
+.icon-build{
+    width: 20px;
+}
+
+.type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 ;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.plan-list{
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+h5{
+    font-size: 25px;
+}
+
+.month{
+    color: lightgrey;
+    margin: 20px 0;
+}
+
+.advantages{
+    margin: 10px 0;
+    
+}
+
+.b-advantages{
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+u{
+    color: blue;
+}
+
+
