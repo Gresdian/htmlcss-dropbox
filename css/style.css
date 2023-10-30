@@ -8,6 +8,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 /* COMMON */
+
+.font-45{
+    font-size: 45px;
+}
 .border-grey{
     border: 1px solid lightgrey;
 }
@@ -44,6 +48,9 @@ li{
     display: block;
 }
 
+.bottom-60{
+    margin-bottom: 60px;
+}
 
 /* HEADER */
 header{
@@ -283,4 +290,83 @@ u{
 
 .title-skills{
     margin: 20px 0 35px;
+}
+
+.width-60{
+    width:60% ;
+    margin: 150px 0 30px;
+}
+
+.container-full{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.row-3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col-33b{
+    width: calc(100% / 3);
+}
+
+.squares-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.square{
+    width: 50%;
+    height: calc(100vw / 6);
+}
+
+.c-yellow{
+    background-color:#ff1c1c;
+}
+
+.dimension{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-green{
+    background-color: #a2d39b;
+    border: 21px solid #d1e9cd;
+}
+.img1{
+    width: 60%;
+}
+.img3{
+    width: 60%;
+    height: 15%;
+}
+
+.c-blue{
+    background-color: #0093ce;
+}
+
+.c-red{
+    background-color: #61082b;
+}
+
+.team{
+    filter: invert(100%);
+}
+.c-greenb{
+    background-color: #d5001f;
+}
+.c-redb{
+    background-color: #b4d0e7;
+}
+
+.c-blueb{
+    background-color: #0d2481;
+}
+
+.c-yellowb{
+    background-color: #ffd830;
 }
