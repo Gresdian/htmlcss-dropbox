@@ -7,7 +7,26 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+main{
+    margin-bottom: 100px;
+}
+footer{
+    background-color: black;
+}
 /* COMMON */
+.fontgrey{
+    color: lightgrey;
+}
+
+.white{
+    color: white;
+}
+
+.padding-10{
+    padding:0 10px;
+}
+
 .bottom-100{
     margin-bottom: 100px;
 }
@@ -439,4 +458,31 @@ b{
 
 .downarrow{
     width: 20px;
+}
+
+.col-20{
+    width: calc(100% / 5);
+    margin-top: 100px;
+}
+
+.title-foot{
+    margin: 40px 20px;
+}
+
+.globe{
+    padding: 0 5px;
+}
+
+.languages{
+    margin: 45px 0;
+}
+
+.foot-list{
+    margin: 25px 0 100px;
+    flex-direction: column;
+}
+
+.hr-foot{
+    margin: 20px;
+    width: 100px;
 }
